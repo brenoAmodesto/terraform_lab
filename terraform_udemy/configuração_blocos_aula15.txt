@@ -1,0 +1,46 @@
+#Bloco do terraform dentro desse bloco estão configurações básicas do terraform
+
+terraform {
+  
+}
+#Bloco dos providers, nome do provider aws ou azure, gcp etc, cada provider tem sua configuração descrito na documentação.
+
+provider "aws" {
+
+
+}
+#Bloco do resource 
+resource "nome_do_resource" "apelido_para_resource" {
+  
+#Bloco data, funciona da mesma forma como o resource
+#Busca informações de fora do código para ser usado no terraform
+#Da mesma forma nome do data e depois apelido 
+
+}
+
+data "" "name" {
+  
+
+}
+#Bloco de módulo, pode ser dado o nome que você quiser, serve para referenciar o módulo que você cria dentro de um sub-diretorio tanto para um módulo da comunidade
+
+
+module "name" {
+  
+}
+
+#Bloco de variable, declarão de variável que você irá usar no código
+variable "ip" {
+  
+}
+
+#Bloco de output, pegar informação dentro do código.
+output "name" {
+
+
+
+}
+
+locals {
+
+}
